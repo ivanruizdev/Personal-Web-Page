@@ -1,0 +1,49 @@
+
+/* Smooth scrolling style */
+html { scroll-behavior: smooth; }
+/* Custom styles for active link state */
+.nav-link.active {
+    font-weight: 600;
+    color: #E5E7EB;
+}
+.nav-link.active::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #4F46E5;
+    border-radius: 50%;
+}
+/* Style for language dropdown container */
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.language-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #1C1C22;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 100;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.language-dropdown-content a {
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    color: #E5E7EB;
+}
+.language-dropdown-content a:hover {
+    background-color: #4F46E5;
+    border-radius: 0.3rem;
+}
+.language-dropdown:hover .language-dropdown-content {
+    display: block;
+}
