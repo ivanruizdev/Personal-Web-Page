@@ -47,10 +47,15 @@
     },
     "full": {
         "about-p1": "I am a highly motivated Systems Engineering Student specializing in designing, implementing, and maintaining robust **Cloud Computing solutions**. My focus is on **scalable and distributed infrastructures**, a passion cemented by an intensive training scholarship through the Google program. I possess hands-on knowledge of **Google Cloud Services (GCP), BigQuery, and foundational ML/AI tasks**, preparing me to tackle next-generation computing challenges.",
+        
         "exp1-li1": "**Data Management & SQL:** Successfully managed and maintained high-volume patient databases (over 10,000 records), ensuring **99.9% data integrity** and instantaneous availability for medical analysis, using SQL for querying and reporting.",
+        
         "exp1-li3": "**Process Optimization:** Designed and implemented logical systems for clinical information traceability, which **reduced manual data entry errors by 30%** and sped up patient tracking processes.",
+        
         "full-exp-title": "Extended Experience & Impact Metrics",
+        
         "full-exp-placeholder": "This is the **Full Mode** description. Here you can detail specific achievements like: \"Designed a Cadastre data normalization script (Python) that reduced processing time by 40%.\" Use this space to demonstrate measurable impact.",
-        "mode-toggle-text": "Summary Mode"
+        
+        "mode-toggle-text": "Summary Mode" 
     }
 }

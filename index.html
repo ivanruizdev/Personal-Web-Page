@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian Ivan Ruiz Angeles | Cloud & Systems</title>
-    <!-- Tailwind CSS Load -->
+    <title>Brian Ivan Ruiz Angeles | Software Engineer & Cloud Trainee</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome for World Icon & Social Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
-    <!-- Tailwind configuration to use the Inter font -->
     <script>
         tailwind.config = {
             theme: {
@@ -32,25 +29,24 @@
         }
     </script>
     
+    <link rel="preconnect" href="/">
+    
 </head>
 
 <body class="bg-dark-bg font-sans text-text-primary">
 
     <div class="lg:flex lg:h-screen lg:justify-between lg:px-24">
 
-        <!-- Controls (Language & Mode) Container (Fixed Position) -->
         <div class="fixed top-4 right-4 z-50 flex space-x-3">
             
-            <!-- Mode Toggle Button (Summary / Full) -->
-            <button id="mode-toggle" class="bg-dark-card text-text-primary px-3 py-1 rounded-full text-sm font-semibold shadow-lg hover:bg-gray-700 transition">
+            <button id="mode-toggle" class="bg-dark-card text-text-primary px-3 py-1 rounded-full text-sm font-semibold shadow-lg hover:bg-gray-700 transition" data-key="mode-toggle-text"> 
                 Summary Mode
             </button>
 
-            <!-- Language Dropdown Button -->
             <div class="language-dropdown">
                 <button id="language-button" class="bg-accent-blue text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg hover:bg-indigo-600 transition flex items-center space-x-1">
                     <i class="fas fa-globe"></i>
-                    <span id="current-lang-display">EN</span>
+                    <span id="current-lang-display">EN</span> 
                 </button>
                 <div id="language-menu" class="language-dropdown-content">
                     <a href="#" data-lang="en">English (EN)</a>
@@ -65,14 +61,12 @@
             </div>
         </div>
 
-        <!-- Navigation/Hero Column (Sticky on desktop, top on mobile) -->
         <header class="lg:sticky lg:top-0 lg:w-1/2 lg:max-h-screen lg:py-24 p-6 lg:p-0">
             <div class="lg:flex lg:flex-col lg:justify-between lg:h-full">
                 <div>
-                    <!-- HERO Section -->
-                    <h1 class="text-6xl lg:text-8xl font-bold mb-4 tracking-tighter" data-key="hero-name">
-                        Brian Ivan Ruiz Angeles
-                    </h1>
+                    <h1 class="text-6xl lg:text-8xl font-bold mb-4 tracking-tighter">
+                        Ivan Ruiz </h1>
+                    <h3>[Brian Ivan Ruiz Angeles] </h3>
                     <h2 class="text-2xl lg:text-3xl font-semibold text-accent-blue mb-4" data-key="hero-title">
                         Aspiring Software Engineer & Cloud Trainee
                     </h2>
@@ -80,7 +74,6 @@
                         I build **scalable web applications** and **deploy cloud services**, focusing on software fundamentals, resilient data structures, and continuous learning.
                     </p>
 
-                    <!-- Side Navigation (Hidden on mobile, visible on desktop) -->
                     <nav class="hidden lg:block mt-24">
                         <ul>
                             <li class="mb-4">
@@ -99,46 +92,34 @@
                     </nav>
                 </div>
                 
-                <!-- Social/Contact Links -->
-                <!-- UPDATED: Added Instagram, Facebook, and YouTube icons -->
                 <div class="mt-8 lg:mt-0 flex space-x-4 flex-wrap">
-                    <!-- LinkedIn -->
                     <a href="https://www.linkedin.com/in/brian-ivan-ruiz-angeles-17943928b" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="LinkedIn Profile">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM4 9h4v12H4zM6 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
                     </a>
-                    <!-- GitHub (Placeholder URL) -->
                     <a href="YOUR_GITHUB_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="GitHub Profile">
                          <i class="fab fa-github fa-xl"></i>
                     </a>
-                    <!-- X (Twitter) (Placeholder URL) -->
                     <a href="YOUR_X_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="X (Twitter) Profile">
                          <i class="fab fa-x-twitter fa-xl"></i>
                     </a>
-                    <!-- Instagram (Placeholder URL) -->
                     <a href="YOUR_INSTAGRAM_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="Instagram Profile">
                          <i class="fab fa-instagram fa-xl"></i>
                     </a>
-                    <!-- Facebook (Placeholder URL) -->
                     <a href="YOUR_FACEBOOK_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="Facebook Profile">
                          <i class="fab fa-facebook-f fa-xl"></i>
                     </a>
-                     <!-- YouTube (Placeholder URL) -->
                     <a href="YOUR_YOUTUBE_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="YouTube Channel">
                          <i class="fab fa-youtube fa-xl"></i>
                     </a>
-                    <!-- Email -->
                     <a href="mailto:brianivanruizangeles@gmail.com" class="text-text-secondary hover:text-accent-blue transition" aria-label="Email Address">
                          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                     </a>
                 </div>
-                
             </div>
         </header>
 
-        <!-- Content Column (Scrollable) -->
         <main class="lg:w-1/2 lg:py-24 p-6 lg:p-0">
 
-            <!-- ABOUT -->
             <section id="about" class="mb-24 pt-16 lg:pt-0">
                 <h3 class="text-lg font-bold uppercase tracking-widest text-text-secondary mb-4 lg:hidden" data-key="about-title-mobile">About</h3>
                 <p class="text-lg text-text-secondary mb-4" data-key="about-p1">
@@ -152,11 +133,9 @@
                 </p>
             </section>
 
-            <!-- WORK EXPERIENCE -->
             <section id="experience" class="mb-24 pt-16">
                 <h3 class="text-lg font-bold uppercase tracking-widest text-text-secondary mb-8" data-key="experience-title">Work Experience</h3>
 
-                <!-- Experience 1: Clinical Laboratory Worker (Analyst) - DATA RELEVANCE -->
                 <div class="mb-10 p-6 rounded-lg hover:bg-dark-card transition duration-300">
                     <p class="text-sm uppercase text-accent-blue mb-1">2022 – 2024</p>
                     <h4 class="text-xl font-semibold" data-key="exp1-title">Clinical Laboratory Analyst (Data Management)</h4>
@@ -168,7 +147,6 @@
                     </ul>
                 </div>
 
-                <!-- Experience 2: Clinical Laboratory Worker (Assistant) -->
                 <div class="mb-10 p-6 rounded-lg hover:bg-dark-card transition duration-300">
                     <p class="text-sm uppercase text-accent-blue mb-1">2020 – 2022</p>
                     <h4 class="text-xl font-semibold" data-key="exp2-title">Clinical Laboratory Assistant</h4>
@@ -178,7 +156,6 @@
                     </ul>
                 </div>
 
-                <!-- Experience 3: English Tutor -->
                 <div class="mb-10 p-6 rounded-lg hover:bg-dark-card transition duration-300">
                     <p class="text-sm uppercase text-accent-blue mb-1">2022</p>
                     <h4 class="text-xl font-semibold" data-key="exp3-title">English Tutor</h4>
@@ -188,19 +165,16 @@
                     </ul>
                 </div>
                 
-                <!-- Placeholder for full mode content -->
                 <div id="full-mode-experience" class="hidden mt-8 p-6 rounded-lg bg-dark-card border border-gray-700">
                     <h4 class="text-xl font-semibold text-accent-blue mb-4" data-key="full-exp-title">Full Experience Details (Future Content)</h4>
                     <p class="text-text-secondary" data-key="full-exp-placeholder">This section is currently in **Summary Mode**. Switch to **Full Mode** to see in-depth project details, metrics, and extended narratives for each role. (E.g., Specific data analysis projects, Cadastre system improvements, etc.)</p>
                 </div>
             </section>
 
-            <!-- TECHNOLOGIES & CLOUD -->
             <section id="technologies" class="mb-24 pt-16">
                 <h3 class="text-lg font-bold uppercase tracking-widest text-text-secondary mb-8" data-key="tech-title">Technologies & Fundamentals</h3>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Cloud and Data Section -->
                     <div>
                         <h4 class="text-xl font-semibold mb-3 text-accent-blue" data-key="tech-cloud-title">Cloud Infrastructure & Data Foundations</h4>
                         <ul class="flex flex-wrap gap-3">
@@ -208,12 +182,11 @@
                             <li class="bg-dark-card text-text-primary px-4 py-1 rounded-full text-sm font-medium">BigQuery</li>
                             <li class="bg-dark-card text-text-primary px-4 py-1 rounded-full text-sm font-medium">AWS (Basic Knowledge)</li>
                             <li class="bg-dark-card text-text-primary px-4 py-1 rounded-full text-sm font-medium">SQL / Data Management</li>
-                            <li class="bg-dark-card text-text-primary px-4 py-1 rounded-full text-sm font-medium" data-key="tech-virt">Virtualizations</li>
+                            <li class="bg-dark-card text-text-primary px-4 py-1 rounded-full text-sm font-medium" data-key="tech-virt">Virtualizations</li> 
                             <li class="bg-dark-card text-text-primary px-4 py-1 rounded-full text-sm font-medium" data-key="tech-os">Operating Systems</li>
                         </ul>
                     </div>
 
-                    <!-- Development and Languages Section -->
                     <div>
                         <h4 class="text-xl font-semibold mb-3 text-accent-blue" data-key="tech-dev-title">Languages & Core Development Stack</h4>
                         <ul class="flex flex-wrap gap-3">
@@ -237,11 +210,9 @@
                 </div>
             </section>
             
-            <!-- EDUCATION -->
             <section id="education" class="mb-24 pt-16">
                 <h3 class="text-lg font-bold uppercase tracking-widest text-text-secondary mb-8" data-key="edu-title">Education</h3>
 
-                <!-- Education 1: Systems Engineering -->
                 <div class="mb-10 p-6 rounded-lg hover:bg-dark-card transition duration-300">
                     <p class="text-sm uppercase text-accent-blue mb-1">2021 – 2024</p>
                     <h4 class="text-xl font-semibold" data-key="edu1-title">Systems Engineering (B.S. Candidate)</h4>
@@ -249,7 +220,6 @@
                     <p class="mt-2 text-text-secondary text-sm" data-key="edu1-desc">Focused on software fundamentals, hardware, and systems architecture.</p>
                 </div>
 
-                <!-- Education 2: Training in Cloud Computing -->
                 <div class="mb-10 p-6 rounded-lg hover:bg-dark-card transition duration-300">
                     <p class="text-sm uppercase text-accent-blue mb-1">2023 – 2024</p>
                     <h4 class="text-xl font-semibold" data-key="edu2-title">Cloud Computing Training Program</h4>
@@ -258,117 +228,13 @@
                 </div>
             </section>
             
-            <!-- Footer -->
             <footer class="text-center py-12 text-text-secondary text-sm" data-key="footer-text">
                 Designed and Coded by Brian Ivan Ruiz Angeles.
             </footer>
         </main>
     </div>
 
-    <!-- SCRIPT FOR LANGUAGES AND MODES -->
-    <script>
-        // --- GLOBAL STATE ---
-        let currentLang = 'en';
-        let currentMode = 'summary'; // 'summary' or 'full'
-
-        // --- HELPER FUNCTION: Updates all content based on currentLang and currentMode ---
-        function updateContent() {
-            const content = translations[currentLang][currentMode] || translations[currentLang]['summary'];
-            const summaryModeElements = document.querySelectorAll('.mb-10.p-6:not(#full-mode-experience)');
-            const fullModeElement = document.getElementById('full-mode-experience');
-            
-            // 1. Update text content
-            document.querySelectorAll('[data-key]').forEach(el => {
-                const key = el.getAttribute('data-key');
-                const text = content[key] || (translations['en'][currentMode] ? translations['en'][currentMode][key] : translations['en']['summary'][key]); // Fallback logic
-                
-                if (text) {
-                    // Handle bolding
-                    if (text.includes('**')) {
-                        const html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-                        el.innerHTML = html;
-                    } else {
-                        el.textContent = text;
-                    }
-                }
-            });
-
-            // 2. Update language and mode controls
-            document.documentElement.lang = content['html-lang'];
-            document.getElementById('current-lang-display').textContent = currentLang.toUpperCase();
-            document.getElementById('mode-toggle').textContent = (currentMode === 'summary' ? content['mode-toggle-text'] : translations[currentLang]['summary']['mode-toggle-text']);
-            
-            // 3. Toggle visibility based on mode
-            if (currentMode === 'full') {
-                summaryModeElements.forEach(el => el.style.display = 'block');
-                fullModeElement.classList.remove('hidden');
-                document.getElementById('mode-toggle').classList.add('bg-gray-700');
-                document.getElementById('mode-toggle').classList.remove('bg-dark-card');
-            } else {
-                summaryModeElements.forEach(el => el.style.display = 'block');
-                fullModeElement.classList.add('hidden');
-                document.getElementById('mode-toggle').classList.add('bg-dark-card');
-                document.getElementById('mode-toggle').classList.remove('bg-gray-700');
-            }
-            
-            // Update Nav titles for consistency
-            document.querySelector('.nav-link[href="#about"]').textContent = content['nav-about'];
-            document.querySelector('.nav-link[href="#experience"]').textContent = content['nav-experience'];
-            document.querySelector('.nav-link[href="#technologies"]').textContent = content['nav-technologies'];
-            document.querySelector('.nav-link[href="#education"]').textContent = content['nav-education'];
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const modeToggleBtn = document.getElementById('mode-toggle');
-            const languageMenu = document.getElementById('language-menu');
-            
-            // Initialize content and mode on load
-            updateContent(); 
-
-            // --- LANGUAGE TOGGLE LISTENER ---
-            languageMenu.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    currentLang = e.target.getAttribute('data-lang');
-                    updateContent();
-                });
-            });
-
-            // --- MODE TOGGLE LISTENER ---
-            modeToggleBtn.addEventListener('click', () => {
-                currentMode = currentMode === 'summary' ? 'full' : 'summary';
-                updateContent();
-            });
-
-            // --- SMOOTH SCROLL AND ACTIVE STATE LOGIC (Retained) ---
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav-link');
-
-            const options = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.5
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    const id = entry.target.getAttribute('id');
-                    const navLink = document.querySelector(`.nav-link[href="#${id}"]`);
-
-                    if (navLink) {
-                        navLinks.forEach(link => link.classList.remove('active'));
-                        if (entry.isIntersecting) {
-                            navLink.classList.add('active');
-                        }
-                    }
-                });
-            }, options);
-
-            sections.forEach(section => {
-                observer.observe(section);
-            });
-        });
-    </script>
+    <script src="./script.js"></script>
 
 </body>
 </html>
