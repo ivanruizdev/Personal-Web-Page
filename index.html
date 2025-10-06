@@ -34,13 +34,11 @@
     
 </head>
 
-<body class="bg-dark-bg font-sans text-text-primary">
-
-    <div class="lg:flex lg:h-screen lg:justify-between lg:px-24">
-
-        <div class="fixed top-4 right-4 z-50 flex space-x-3">
+<body class="bg-dark-bg font-sans text-text-primary flex flex-col min-h-screen">
+    <div class="fixed top-4 right-4 z-50 flex space-x-3">
             
-            <button id="mode-toggle" class="bg-dark-card text-text-primary px-3 py-1 rounded-full text-sm font-semibold shadow-lg hover:bg-gray-700 transition" data-key="mode-toggle-text"> 
+            <!--MODE BUTTON ACTUALY HIDDEN, MISHIDE TO ACTIVE THE FUNCTIONS, DONT TOUCH FOR NOW-->
+            <button id="mode-toggle" class=" hidden bg-dark-card text-text-primary px-3 py-1 rounded-full text-sm font-semibold shadow-lg hover:bg-gray-700 transition" data-key="mode-toggle-text"> 
                 Full Mode
             </button>
 
@@ -60,8 +58,9 @@
                     <a href="#" data-lang="ja">日本語 (JA)</a>
                 </div>
             </div>
-        </div>
-
+    </div>
+    
+    <div class="lg:flex lg:justify-between lg:px-24 flex-grow">      
         <header class="lg:sticky lg:top-0 lg:w-1/2 lg:max-h-screen lg:py-24 p-6 lg:p-0">
             <div class="lg:flex lg:flex-col lg:justify-between lg:h-full">
                 <div>
@@ -94,25 +93,27 @@
                 </div>
                 
                 <div class="mt-8 lg:mt-0 flex space-x-4 flex-wrap">
-                    <a href="https://www.linkedin.com/in/brian-ivan-ruiz-angeles-17943928b" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="LinkedIn Profile">
+                    <a href="https://www.linkedin.com/in/ivanruizdev/" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="LinkedIn Profile">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM4 9h4v12H4zM6 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
                     </a>
-                    <a href="YOUR_GITHUB_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="GitHub Profile">
+                    <a href="https://github.com/ivanruizdev" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="GitHub Profile">
                          <i class="fab fa-github fa-xl"></i>
                     </a>
-                    <a href="YOUR_X_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="X (Twitter) Profile">
+                    <a href="https://x.com/IvanRuizDev" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="X (Twitter) Profile">
                          <i class="fab fa-x-twitter fa-xl"></i>
                     </a>
-                    <a href="YOUR_INSTAGRAM_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="Instagram Profile">
+                    <a href="https://www.instagram.com/ivanruizdev/" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="Instagram Profile">
                          <i class="fab fa-instagram fa-xl"></i>
                     </a>
-                    <a href="YOUR_FACEBOOK_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="Facebook Profile">
+                    
+                    <!--FACEBOOK TEMPORALY HIDDEN-->
+                    <a href="YOUR_FACEBOOK_URL_HERE" target="_blank" class="hidden text-text-secondary hover:text-accent-blue transition" aria-label="Facebook Profile">
                          <i class="fab fa-facebook-f fa-xl"></i>
                     </a>
-                    <a href="YOUR_YOUTUBE_URL_HERE" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="YouTube Channel">
+                    <a href="https://www.youtube.com/@IvanRuizTech" target="_blank" class="text-text-secondary hover:text-accent-blue transition" aria-label="YouTube Channel">
                          <i class="fab fa-youtube fa-xl"></i>
                     </a>
-                    <a href="mailto:brianivanruizangeles@gmail.com" class="text-text-secondary hover:text-accent-blue transition" aria-label="Email Address">
+                    <a href="mailto:ivan@ivanruiz.dev" class="text-text-secondary hover:text-accent-blue transition" aria-label="Email Address">
                          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                     </a>
                 </div>
@@ -227,13 +228,14 @@
                     <p class="text-text-secondary" data-key="edu2-school">Scholarship by INROADS and Google</p>
                     <p class="mt-2 text-text-secondary text-sm" data-key="edu2-desc">Intensive program focused on implementing and managing cloud solutions, including AWS and GCP fundamentals.</p>
                 </div>
-            </section>
+            </section>          
             
-            <footer class="text-center py-12 text-text-secondary text-sm" data-key="footer-text">
-                Designed and Coded by Brian Ivan Ruiz Angeles.
-            </footer>
         </main>
     </div>
+
+    <footer class="w-full flex items-center justify-center py-12 text-text-secondary text-sm bg-dark-bg" data-key="footer-text">
+        Designed and Coded by Brian Ivan Ruiz Angeles.
+    </footer>
 
     <script src="./script.js"></script>
 
