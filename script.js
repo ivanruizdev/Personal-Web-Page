@@ -147,7 +147,21 @@ async function updateContent() {
 document.addEventListener('DOMContentLoaded', async () => {
     const modeToggleBtn = document.getElementById('mode-toggle');
     const languageMenu = document.getElementById('language-menu');
+    const languageButton = document.getElementById('language-button');
     
+    // --- LANGUAGE BUTTON TOGGLE (SHOW/HIDE DROPDOWN) ---
+    languageButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        languageMenu.classList.toggle('show');
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.language-dropdown')) {
+            languageMenu.classList.remove('show');
+        }
+    });
+
     // 💡 PASO CRÍTICO: INICIALIZACIÓN ASÍNCRONA
     // 1. Detectar el idioma del navegador o usar 'en' como fallback inicial
     const initialLang = navigator.language.split('-')[0] || 'en';
