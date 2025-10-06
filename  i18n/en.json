@@ -4,18 +4,18 @@
         "nav-experience": "EXPERIENCE",
         "nav-technologies": "TECHNOLOGIES & FUNDAMENTALS",
         "nav-education": "EDUCATION",
-        "hero-title": "Aspiring Software Engineer & Cloud Trainee",
-        "hero-statement": "I build **scalable web applications** and **deploy cloud services**, focusing on software fundamentals, resilient data structures, and continuous learning.",
+        "hero-title": "Computer Systems Engineer | Full Stack Developer | DevOps",
+        "hero-statement": "I design, build, and deploy **robust software solutions** and **scalable cloud services**, applying DevOps principles to ensure efficiency and quality.",
         "about-title-mobile": "About",
-        "about-p1": "Systems Engineering Student and **Aspiring Software Engineer** with a foundation in **Cloud Computing** and a strong focus on **software development fundamentals**. My intensive training through the Google program provided hands-on exposure to **Google Cloud Services (GCP), BigQuery, and foundational ML/AI tasks**.",
-        "about-p2": "My current objective is to secure an entry-level position where I can **apply robust coding practices** and leverage my understanding of **scalable and distributed infrastructures** to contribute to production environments. I am driven by complex problem-solving and the ability to learn quickly in challenging technical settings.",
-        "about-p3": "My non-technical experience, particularly in clinical database management, has cultivated strong skills in **data precision, quality assurance**, and **process optimization**—qualities I believe are crucial for a successful Software Development Engineer.",
-        "experience-title": "WORK EXPERIENCE",
-        "exp1-title": "Clinical Laboratory Analyst (Data Management)",
+        "about-p1": "Computer Systems Engineer specializing in **Software Development and DevOps**. Passionate about creating efficient cloud infrastructures and high-quality software, with hands-on experience in **Google Cloud (GCP), BigQuery, and ML/AI fundamentals** gained through the Google program.",
+        "about-p2": "I apply my skills across the full software development lifecycle—from **coding and testing to deployment and automation**—to build tech solutions that deliver real value and solve complex challenges.",
+        "about-p3": "My prior experience in critical data management has provided me with a solid foundation in **precision, process optimization, and quality assurance**—principles I rigorously apply to every line of code and deployment.",
+        "experience-title": "PROFESSIONAL EXPERIENCE",
+        "exp1-title": "Data and Process Analyst",
         "exp1-company": "Curie Laboratories",
-        "exp1-li1": "**Data Management & SQL:** Managed patient databases, ensuring information integrity and availability for analysis.",
-        "exp1-li2": "**Correlation Analysis:** Developed and executed analyses to find medical correlations and facilitate patient tracking.",
-        "exp1-li3": "**Process Optimization:** Applied systems logic to improve the traceability of clinical information, reducing manual errors.",
+        "exp1-li1": "**Data Management & SQL:** Designed and managed patient databases, ensuring maximum data integrity and availability for critical analysis.",
+        "exp1-li2": "**Correlation Analysis:** Developed and executed complex analyses to identify medical correlations and optimize patient tracking.",
+        "exp1-li3": "**Process Optimization:** Applied systems engineering principles to improve clinical information traceability, resulting in a significant reduction of manual errors.",
         "exp2-title": "Clinical Laboratory Assistant",
         "exp2-company": "CERADI, SA CV",
         "exp2-li1": "Supported analysis areas and phlebotomy services.",
@@ -24,16 +24,16 @@
         "exp3-li1": "Worked as a complementary professor, managing groups of children.",
         "tech-title": "TECHNOLOGIES & FUNDAMENTALS",
         "tech-cloud-title": "Cloud Infrastructure & Data Foundations",
-        "tech-virt": "Virtualizations",
+        "tech-virt": "Virtualization",
         "tech-os": "Operating Systems",
         "tech-dev-title": "Languages & Core Development Stack",
         "cert-title": "Certifications & Training (Google Cloud Program)",
         "cert-li1": "**Build and Secure Networks**",
         "cert-li2": "**Create and Manage Cloud Resources**",
-        "cert-li3": "**Performing Foundational Data, ML and AI Tasks**",
+        "cert-li3": "**Performing Foundational Data, ML, and AI Tasks**",
         "cert-li4": "Performing Foundational Infrastructure.",
         "edu-title": "EDUCATION",
-        "edu1-title": "Systems Engineering (B.S. Candidate)",
+        "edu1-title": "B.S. in Computer Systems Engineering",
         "edu1-school": "TecNM Atitalaquia",
         "edu1-desc": "Focused on software fundamentals, hardware, and systems architecture.",
         "edu2-title": "Cloud Computing Training Program",
@@ -43,19 +43,14 @@
         "html-lang": "en",
         "mode-toggle-text": "Full Mode",
         "full-exp-title": "Full Experience Details",
-        "full-exp-placeholder": "This section is currently in **Summary Mode**. Switch to **Full Mode** to see in-depth project details, metrics, and extended narratives for each role. (E.g., Specific data analysis projects, Cadastre system improvements, etc.)"
+        "full-exp-placeholder": "This section is currently in **Summary Mode**. Switch to **Full Mode** to see in-depth project details, metrics, and extended narratives for each role."
     },
     "full": {
-        "about-p1": "I am a highly motivated Systems Engineering Student specializing in designing, implementing, and maintaining robust **Cloud Computing solutions**. My focus is on **scalable and distributed infrastructures**, a passion cemented by an intensive training scholarship through the Google program. I possess hands-on knowledge of **Google Cloud Services (GCP), BigQuery, and foundational ML/AI tasks**, preparing me to tackle next-generation computing challenges.",
-        
-        "exp1-li1": "**Data Management & SQL:** Successfully managed and maintained high-volume patient databases (over 10,000 records), ensuring **99.9% data integrity** and instantaneous availability for medical analysis, using SQL for querying and reporting.",
-        
-        "exp1-li3": "**Process Optimization:** Designed and implemented logical systems for clinical information traceability, which **reduced manual data entry errors by 30%** and sped up patient tracking processes.",
-        
+        "about-p1": "As a Systems Engineer, I specialize in the design, implementation, and maintenance of robust **Cloud Computing solutions**. My focus is on **scalable and distributed infrastructures**, a passion solidified by an intensive training scholarship through the Google program. I possess hands-on knowledge of **Google Cloud (GCP), BigQuery, and foundational ML/AI tasks**, preparing me to tackle next-generation computing challenges.",
+        "exp1-li1": "**Data Management & SQL:** Managed and optimized high-volume patient databases (10,000+ records), ensuring **99.9% data integrity** and instant availability for medical analysis using advanced SQL for querying and reporting.",
+        "exp1-li3": "**Process Optimization:** Automated clinical information traceability by implementing new systems logic, which **reduced manual data entry errors by 30%** and accelerated patient tracking processes.",
         "full-exp-title": "Extended Experience & Impact Metrics",
-        
-        "full-exp-placeholder": "This is the **Full Mode** description. Here you can detail specific achievements like: \"Designed a Cadastre data normalization script (Python) that reduced processing time by 40%.\" Use this space to demonstrate measurable impact.",
-        
-        "mode-toggle-text": "Summary Mode" 
+        "full-exp-placeholder": "Welcome to **Full Mode**. This section details quantifiable achievements and the direct impact of my work, such as: \"Developed a Python script for data normalization that reduced processing time by 40%.\"",
+        "mode-toggle-text": "Summary Mode"
     }
 }

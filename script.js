@@ -59,7 +59,7 @@ async function loadLanguage(lang) {
     }
 
     try {
-        const response = await fetch(`/i18n/${lang}.json`);
+        const response = await fetch(`./i18n/${lang}.json`);
         if (!response.ok) throw new Error('Language file not found');
         
         // 💡 Reemplazamos el objeto global con SOLO el idioma cargado
@@ -124,17 +124,14 @@ async function updateContent() {
     document.getElementById('mode-toggle').textContent = toggleText;
 
     // 3. Toggle visibility based on mode
-    const summaryModeElements = document.querySelectorAll('.mb-10.p-6:not(#full-mode-experience)');
     const fullModeElement = document.getElementById('full-mode-experience');
     const modeToggleBtn = document.getElementById('mode-toggle');
 
     if (currentMode === 'full') {
-        summaryModeElements.forEach(el => el.style.display = 'block');
         fullModeElement.classList.remove('hidden');
         modeToggleBtn.classList.add('bg-gray-700');
         modeToggleBtn.classList.remove('bg-dark-card');
     } else {
-        summaryModeElements.forEach(el => el.style.display = 'block');
         fullModeElement.classList.add('hidden');
         modeToggleBtn.classList.add('bg-dark-card');
         modeToggleBtn.classList.remove('bg-gray-700');

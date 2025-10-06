@@ -1,22 +1,21 @@
 {
-    
     "summary": {
         "nav-about": "ACERCA DE",
         "nav-experience": "EXPERIENCIA",
         "nav-technologies": "TECNOLOGÍAS & FUNDAMENTOS",
         "nav-education": "EDUCACIÓN",
-        "hero-title": "Aspirante a Ingeniero de Software & Aprendiz Cloud",
-        "hero-statement": "Construyo **aplicaciones web escalables** y **despliego servicios cloud**, centrándome en fundamentos de software, estructuras de datos resilientes y aprendizaje continuo.",
+        "hero-title": "Ingeniero en Sistemas Computacionales | Full Stack Developer | DevOps",
+        "hero-statement": "Diseño, construyo y despliego **soluciones de software robustas** y **servicios cloud escalables**, aplicando principios de DevOps para garantizar la eficiencia y la calidad.",
         "about-title-mobile": "Acerca de",
-        "about-p1": "Estudiante de Ingeniería en Sistemas y **Aspirante a Ingeniero de Software** con una base en **Cloud Computing** y un fuerte enfoque en los **fundamentos de desarrollo de software**. Mi entrenamiento intensivo a través del programa de Google proporcionó exposición práctica a **Google Cloud Services (GCP), BigQuery y tareas fundacionales de ML/IA**.",
-        "about-p2": "Mi objetivo actual es asegurar una posición de nivel inicial donde pueda **aplicar prácticas de codificación robustas** y aprovechar mi comprensión de **infraestructuras escalables y distribuidas** para contribuir en entornos de producción. Me impulsa la resolución de problemas complejos y la capacidad de aprender rápidamente en entornos técnicos desafiantes.",
-        "about-p3": "Mi experiencia no técnica, particularmente en la gestión de bases de datos clínicas, ha cultivado fuertes habilidades en **precisión de datos, aseguramiento de la calidad** y **optimización de procesos**—cualidades que considero cruciales para un Ingeniero de Desarrollo de Software exitoso.",
-        "experience-title": "EXPERIENCIA LABORAL",
-        "exp1-title": "Analista de Laboratorio Clínico (Gestión de Datos)",
+        "about-p1": "Ingeniero en Sistemas Computacionales con especialización en **Desarrollo de Software y DevOps**. Apasionado por la creación de infraestructuras cloud eficientes y el desarrollo de software de alta calidad, con experiencia práctica en **Google Cloud (GCP), BigQuery y fundamentos de ML/IA** obtenida a través del programa de Google.",
+        "about-p2": "Busco aplicar mis habilidades en el ciclo de vida completo del desarrollo de software—desde la **codificación y las pruebas hasta el despliegue y la automatización**—para construir soluciones tecnológicas que aporten valor real y resuelvan desafíos complejos.",
+        "about-p3": "Mi experiencia previa en la gestión de datos críticos me ha proporcionado una sólida base en **precisión, optimización de procesos y aseguramiento de la calidad**, principios que aplico rigurosamente en cada línea de código y despliegue.",
+        "experience-title": "EXPERIENCIA PROFESIONAL",
+        "exp1-title": "Analista de Datos y Procesos",
         "exp1-company": "Curie Laboratories",
-        "exp1-li1": "**Gestión de Datos y SQL:** Administré bases de datos de pacientes, asegurando la integridad y la disponibilidad de la información para el análisis.",
-        "exp1-li2": "**Análisis de Correlación:** Desarrollé y ejecuté análisis para buscar correlaciones médicas y facilitar el seguimiento de pacientes.",
-        "exp1-li3": "**Optimización de Procesos:** Apliqué lógica de sistemas para mejorar la trazabilidad de la información clínica, reduciendo errores manuales.",
+        "exp1-li1": "**Gestión de Datos y SQL:** Diseñé y gestioné bases de datos de pacientes, garantizando la máxima integridad y disponibilidad de la información para análisis críticos.",
+        "exp1-li2": "**Análisis de Correlación:** Desarrollé y ejecuté análisis complejos para identificar correlaciones médicas y optimizar el seguimiento de pacientes.",
+        "exp1-li3": "**Optimización de Procesos:** Apliqué principios de ingeniería de sistemas para mejorar la trazabilidad de la información clínica, resultando en una reducción significativa de errores manuales.",
         "exp2-title": "Asistente de Laboratorio Clínico",
         "exp2-company": "CERADI, SA CV",
         "exp2-li1": "Soporte en áreas de análisis y toma de muestras (flebotomista).",
@@ -44,14 +43,14 @@
         "html-lang": "es",
         "mode-toggle-text": "Modo Completo",
         "full-exp-title": "Detalles Completos de la Experiencia",
-        "full-exp-placeholder": "Esta sección está actualmente en **Modo Resumen**. Cambia a **Modo Completo** para ver detalles de proyectos, métricas y narrativas extendidas para cada rol. (Ej: Proyectos específicos de análisis de datos, mejoras del sistema de Catastro, etc.)"
+        "full-exp-placeholder": "Esta sección está actualmente en **Modo Resumen**. Cambia a **Modo Completo** para ver detalles de proyectos, métricas y narrativas extendidas para cada rol."
     },
     "full": {
-        "about-p1": "Soy un estudiante de Ingeniería en Sistemas altamente motivado, especializado en el diseño, implementación y mantenimiento de soluciones robustas de **Cloud Computing**. Mi enfoque se centra en **infraestructuras escalables y distribuidas**, una pasión consolidada por una beca de entrenamiento intensivo a través del programa de Google. Poseo conocimientos prácticos de **Google Cloud Services (GCP), BigQuery y tareas fundacionales de ML/IA**, preparándome para abordar desafíos de computación de próxima generación.",
-        "exp1-li1": "**Gestión de Datos y SQL:** Administré y mantuve exitosamente bases de datos de pacientes de alto volumen (más de 10,000 registros), asegurando una **integridad de datos del 99.9%** y disponibilidad instantánea para el análisis médico, utilizando SQL para consultas y reportes.",
-        "exp1-li3": "**Optimización de Procesos:** Diseñé e implementé lógica de sistemas para la trazabilidad de información clínica, lo que **redujo los errores de ingreso manual de datos en un 30%** y aceleró los procesos de seguimiento de pacientes.",
+        "about-p1": "Como Ingeniero en Sistemas, me especializo en el diseño, implementación y mantenimiento de soluciones robustas de **Cloud Computing**. Mi enfoque se centra en **infraestructuras escalables y distribuidas**, una pasión consolidada por una beca de entrenamiento intensivo a través del programa de Google. Poseo conocimientos prácticos de **Google Cloud (GCP), BigQuery y tareas fundacionales de ML/IA**, preparándome para abordar desafíos de computación de próxima generación.",
+        "exp1-li1": "**Gestión de Datos y SQL:** Gestioné y optimicé bases de datos de pacientes de alto volumen (+10,000 registros), garantizando una **integridad de datos del 99.9%** y disponibilidad instantánea para el análisis médico, utilizando SQL avanzado para consultas y reportes.",
+        "exp1-li3": "**Optimización de Procesos:** Automaticé la trazabilidad de la información clínica mediante la implementación de nueva lógica de sistemas, lo que **redujo los errores de ingreso manual de datos en un 30%** y aceleró los procesos de seguimiento de pacientes.",
         "full-exp-title": "Experiencia Extendida y Métricas de Impacto",
-        "full-exp-placeholder": "Esta es la descripción del **Modo Completo**. Aquí puedes detallar logros específicos como: \"Diseñé un script de normalización de datos de Catastro (Python) que redujo el tiempo de procesamiento en un 40%.\" Utiliza este espacio para demostrar impacto medible.",
+        "full-exp-placeholder": "Bienvenido al **Modo Completo**. Aquí se detallan logros cuantificables y el impacto directo de mi trabajo, como: \"Desarrollo de un script en Python para la normalización de datos que redujo el tiempo de procesamiento en un 40%.\"",
         "mode-toggle-text": "Modo Resumen"
     }
 }
